@@ -39,7 +39,7 @@ client.on('message', async message => {
             if (msg !== undefined || null) count++
             answer.push(msg)
             if (count == questions.length) {
-                message.author.send("Subbmitted application! ``Made by RainyXeon``")
+                message.author.send("Subbmitted application! ``made by captain motchy``")
                 const embed = new MessageEmbed()
                     .setTitle('Application Submitted')
                     .setDescription(`This application was submitted by ${message.author.tag} (${message.author.id}).\nCreated: ${message.author.createdAt}`)
